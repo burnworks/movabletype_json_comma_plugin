@@ -1,0 +1,11 @@
+name: "JSON Comma"
+id: JSONComma
+version: 1.0
+description: '<__trans phrase="Add `mt:JSONComma` function tag">'
+author_name: "@burnworks"
+author_link: https://github.com/burnworks/
+doc_link: https://github.com/burnworks/movabletype_json_comma_plugin
+
+tags:
+    function:
+        jsoncomma: $JsonComma::MT::Plugin::JsonComma::_hdlr_jsoncomma
