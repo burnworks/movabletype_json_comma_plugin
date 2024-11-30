@@ -12,7 +12,9 @@ sub _hdlr_jsoncomma {
     # カテゴリー内のループチェック（<mt:SubCategories top="1"> と <mt:TopLevelCategories> 向けの処理）
     my $is_subcategory_last = $ctx->stash('subCatIsLast');
     
-    # 各ループ内で最後のループなら空文字（この判定の仕方はちょっと良くない気がするがとりあえず）
+    # トップレベルのカテゴリーループの最後の要素かどうかを判定
+    # __last__が未定義の場合のみsubCatIsLastを考慮することで、
+    # ネストされたループ内での誤動作を防止
     return q{} if ($is_subcategory_last && !defined($ctx->var('__last__')));
     
     # それ以外の場合はカンマを出力
