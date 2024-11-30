@@ -1,6 +1,6 @@
 name: "JSON Comma"
 id: JSONComma
-version: 1.0
+version: 1.0.1
 description: '<__trans phrase="Add `mt:JSONComma` function tag">'
 author_name: "@burnworks"
 author_link: https://github.com/burnworks/
