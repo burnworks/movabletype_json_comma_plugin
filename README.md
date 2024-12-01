@@ -2,7 +2,7 @@
 
 Add `mt:JSONComma` function tag for Movable Type.
 
-JSON データをテンプレートで作るときに、面倒くさいカンマ（`,`）の処理をほんのちょっとだけ楽にする Movable Type プラグイン。
+JSON データをテンプレートで作るときに、面倒くさいカンマ（`,`）の処理（いわゆる「末尾のカンマ」問題）をほんのちょっとだけ楽にする Movable Type プラグイン。
 
 ## インストール
 下記のような配置になるように、`JsonComma` ディレクトリ以下を Movable Type のインストールディレクトリに設置してください。
