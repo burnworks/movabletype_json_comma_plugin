@@ -57,7 +57,7 @@ $MT_DIR/
   {
     "label": "<$mt:CategoryLabel encode_json="1"$>",
     "path": "<$mt:CategoryBasename encode_json="1"$>",
-    "link": "<$mt:CategoryArchiveLink encode_json="1"$>",
+    "link": "<$mt:CategoryArchiveLink encode_json="1"$>"
   }<$mt:Var name="comma"$>
 </mt:TopLevelCategories>
 ```
@@ -69,7 +69,7 @@ $MT_DIR/
   {
     "label": "<$mt:CategoryLabel encode_json="1"$>",
     "path": "<$mt:CategoryBasename encode_json="1"$>",
-    "link": "<$mt:CategoryArchiveLink encode_json="1"$>",
+    "link": "<$mt:CategoryArchiveLink encode_json="1"$>"
   }<$mt:JsonComma$>
 </mt:TopLevelCategories>
 ```
@@ -104,13 +104,13 @@ $MT_DIR/
 <mt:Entries>
   {
     "title": "<$mt:EntryTitle encode_json="1"$>",
-    "author": "<$mt:EntryAuthor encode_json="1"$>"
+    "author": "<$mt:EntryAuthor encode_json="1"$>",
     "category": [
       <mt:EntryCategories glue=",">
       {
         "label": "<$mt:CategoryLabel encode_json="1"$>",
         "path": "<$mt:CategoryBasename encode_json="1"$>",
-        "link": "<$mt:CategoryArchiveLink encode_json="1"$>",
+        "link": "<$mt:CategoryArchiveLink encode_json="1"$>"
       }
       </mt:EntryCategories>
     ]
